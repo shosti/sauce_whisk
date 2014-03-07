@@ -1,5 +1,5 @@
 require "spec_helper"
-require "rest_client"
+require "restclient"
 
 describe SauceWhisk::RestRequestBuilder do
   let(:dummy_client) { 
